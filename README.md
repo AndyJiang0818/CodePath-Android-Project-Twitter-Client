@@ -1,8 +1,8 @@
 # Project 2 - *Twitter Client*
 
-**Name of your app** is an android app that allows a user to view his Twitter timeline. The app utilizes [Twitter REST API](https://dev.twitter.com/rest/public).
+**Twitter Client** is an android app that allows a user to view his Twitter timeline. The app utilizes [Twitter REST API](https://dev.twitter.com/rest/public).
 
-Time spent: **X** hours spent in total
+Time spent: **4** hours spent in total
 
 ## User Stories
 
@@ -39,7 +39,7 @@ GIF created with [LiceCap](https://giphy.com/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I did the "User can view more tweets as they scroll with infinite pagination" part as well, but somehow it was not working. I have been trying to fix it, but unfortunately, I did not figure out why I was wrong. 
 
 ## Open-source libraries used
 
