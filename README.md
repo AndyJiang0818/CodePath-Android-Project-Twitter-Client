@@ -43,7 +43,7 @@ GIF created with [Giphy](https://giphy.com/).
 
 ## Notes
 
-I did not find out how to use the TextChangedListener properly. 
+I did not find out how to disable the "Tweet" button when the user types more than 280 characters. 
 
 ## Open-source libraries used
 
