@@ -36,6 +36,6 @@
         android:layout_below="@+id/etCompose"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="5dp"
-        android:layout_toStartOf="@+id/btnTweet"
-        android:text="140" />
+        android:layout_toStartOf="@+id/btnTweet" />
+        android:text="@string/_0_280" />
 </RelativeLayout>

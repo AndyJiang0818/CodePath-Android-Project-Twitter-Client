@@ -3,6 +3,8 @@ package com.codepath.apps.restclienttemplate;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.res.ColorStateList;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Parcel;
 import android.text.Editable;
@@ -92,30 +94,28 @@ public class ComposeActivity extends AppCompatActivity {
             }
         });
 
-        etLimit.addTextChangedListener(new TextWatcher() {
+        etCompose.addTextChangedListener(new TextWatcher() {
+            ColorStateList oldColors = etLimit.getTextColors();
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
 
-                // Fires right as the text is being changed even supplies the range of text
             }
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+                etLimit.setText(charSequence.length()+"/280");
+                if(charSequence.length() < MAX_TWEET_LENGTH && charSequence.length() >=0){
+                    etLimit.setTextColor(oldColors);
+                }
+                if(charSequence.length() >= MAX_TWEET_LENGTH){
+                    etLimit.setTextColor(Color.rgb(200,0,0));
+                }
 
-                // Fires right before text is changing
             }
 
             @Override
             public void afterTextChanged(Editable editable) {
 
-                // Fires right after the text has changed
-            }
-        });
-
-        etLimit.setOnEditorActionListener(new TextView.OnEditorActionListener() {
-            @Override
-            public boolean onEditorAction(TextView textView, int i, KeyEvent keyEvent) {
-                return false;
             }
         });
     }
