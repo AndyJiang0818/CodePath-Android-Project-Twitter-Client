@@ -2,11 +2,17 @@
 
 **Twitter Client** is an android app that allows a user to view his Twitter timeline and post a new tweet. The app utilizes [Twitter REST API](https://dev.twitter.com/rest/public).
 
-Time spent: **6** hours spent in total
+Time spent: **11** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is completed:
+
+- [x] User can **sign in to Twitter** using OAuth login
+- [x]	User can **view tweets from their home timeline**
+  - [x] User is displayed the username, name, and body for each tweet
+  - [x] User is displayed the [relative timestamp](https://gist.github.com/nesquena/f786232f5ef72f6e10a7) for each tweet "8m", "7h"
+- [x] User can refresh tweets timeline by pulling down to refresh
 
 - [x] User can **compose and post a new tweet**
   - [x] User can click a “Compose” icon in the Action Bar on the top right
@@ -29,61 +35,6 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
-
-## Video Walkthrough
-
-Here's a walkthrough of implemented user stories:
-
-<img src='https://media.giphy.com/media/HJIuTJt3sblwcv3tdM/giphy.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
-<img src='https://media.giphy.com/media/AtoejhbMNiz3PJ6e8L/giphy.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
-<img src='https://media.giphy.com/media/RWisiIbtdGBZ9AhoAC/giphy.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
-
-GIF created with [Giphy](https://giphy.com/).
-
-## Notes
-
-I did not find out how to disable the "Tweet" button when the user types more than 280 characters. 
-
-## Open-source libraries used
-
-- [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
-- [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Android
-
-## License
-
-    Copyright [2021] [Xihao Jiang]
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
-
-# Project 2 - *Twitter Client*
-
-**Twitter Client** is an android app that allows a user to view his Twitter timeline. The app utilizes [Twitter REST API](https://dev.twitter.com/rest/public).
-
-Time spent: **4** hours spent in total
-
-## User Stories
-
-The following **required** functionality is completed:
-
-- [x] User can **sign in to Twitter** using OAuth login
-- [x]	User can **view tweets from their home timeline**
-  - [x] User is displayed the username, name, and body for each tweet
-  - [x] User is displayed the [relative timestamp](https://gist.github.com/nesquena/f786232f5ef72f6e10a7) for each tweet "8m", "7h"
-- [x] User can refresh tweets timeline by pulling down to refresh
-
-The following **optional** features are implemented:
-
 - [ ] User can view more tweets as they scroll with infinite pagination
 - [ ] Improve the user interface and theme the app to feel "twitter branded"
 - [ ] Links in tweets are clickable and will launch the web browser
@@ -93,8 +44,6 @@ The following **optional** features are implemented:
 - [ ] User can open the twitter app offline and see last loaded tweets
 - [ ] On the Twitter timeline, leverage the CoordinatorLayout to apply scrolling behavior that hides / shows the toolbar.
 
-The following **additional** features are implemented:
-
 - [ ] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough
@@ -102,12 +51,11 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <img src='https://media.giphy.com/media/EMHEib0tEirtYfw5rM/giphy.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
+<img src='https://media.giphy.com/media/HJIuTJt3sblwcv3tdM/giphy.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
+<img src='https://media.giphy.com/media/AtoejhbMNiz3PJ6e8L/giphy.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
+<img src='https://media.giphy.com/media/RWisiIbtdGBZ9AhoAC/giphy.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
 
-GIF created with [Giphy](https://giphy.com/).
-
-## Notes
-
-I did the "User can view more tweets as they scroll with infinite pagination" part as well, but somehow it was not working. I have been trying to fix it, but unfortunately, I did not figure out why I was wrong. 
+GIF created with [Giphy](https://giphy.com/). 
 
 ## Open-source libraries used
 
