@@ -33,8 +33,6 @@ The following **optional** features are implemented:
 - [ ] When a user leaves the compose view without publishing and there is existing text, prompt to save or delete the draft. If saved, the draft should then be **persisted to disk** and can later be resumed from the compose view.
 - [ ] Enable your app to receive implicit intents from other apps. When a link is shared from a web browser, it should pre-fill the text and title of the web page when composing a tweet. 
 
-The following **additional** features are implemented:
-
 - [ ] User can view more tweets as they scroll with infinite pagination
 - [ ] Improve the user interface and theme the app to feel "twitter branded"
 - [ ] Links in tweets are clickable and will launch the web browser
